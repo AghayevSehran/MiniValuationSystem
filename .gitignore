@@ -3,3 +3,7 @@
 ################################################################################
 
 /MiniValuationSystem/bin/Debug/net6.0
+/MiniValuationSystem/obj
+/MiniValuationSystem.UnitTests/bin/Debug/net6.0
+/MiniValuationSystem.UnitTests/obj
+/.vs
