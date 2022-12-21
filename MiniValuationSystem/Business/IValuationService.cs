@@ -1,9 +1,8 @@
 ﻿using MiniValuationSystem.Models;
 
-namespace MiniValuationSystem.Business
+namespace MiniValuationSystem.Business;
+
+public interface IValuationService
 {
-    public interface IValuationService
-    {
-        Task<IEnumerable<Valuation>> CalculateValuetion();
-    }
+    Task<IEnumerable<Valuation>> CalculateValuetion();
 }
